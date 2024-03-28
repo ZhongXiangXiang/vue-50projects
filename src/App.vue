@@ -23,6 +23,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/drink-water">drink-water</RouterLink>
       <RouterLink to="/movie-app">movie-app</RouterLink>
       <RouterLink to="/background-slider">background-slider [undone]</RouterLink>
+      <RouterLink to="/theme-clock">theme-clock</RouterLink>
     </div>
 
     <RouterView class="content-wrapper" />

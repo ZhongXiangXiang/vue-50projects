@@ -106,6 +106,11 @@ const router = createRouter({
       path: '/background-slider',
       name: 'background-slider',
       component: () => import('@/views/day18BackgroundSlider/index2.vue')
+    },
+    {
+      path: '/theme-clock',
+      name: 'theme-clock',
+      component: () => import('@/views/day19ThemeClock/index.vue')
     }
   ]
 })
