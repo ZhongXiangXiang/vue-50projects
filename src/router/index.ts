@@ -86,6 +86,26 @@ const router = createRouter({
       path: '/animation-navigation',
       name: 'animation-navigation',
       component: () => import('@/views/day14AnimationNavigation/index.vue')
+    },
+    {
+      path: '/incrementing-counter',
+      name: 'incrementing-counter',
+      component: () => import('@/views/day15IncrementingCounter/index.vue')
+    },
+    {
+      path: '/drink-water',
+      name: 'drink-water',
+      component: () => import('@/views/day16DrinkWater/index.vue')
+    },
+    {
+      path: '/movie-app',
+      name: 'movie-app',
+      component: () => import('@/views/day17MovieApp/index.vue')
+    },
+    {
+      path: '/background-slider',
+      name: 'background-slider',
+      component: () => import('@/views/day18BackgroundSlider/index2.vue')
     }
   ]
 })

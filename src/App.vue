@@ -19,6 +19,10 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/faq-collapse">faq-collapse</RouterLink>
       <RouterLink to="/random-choice-picker">random-choice-picker</RouterLink>
       <RouterLink to="/animation-navigation">animation-navigation</RouterLink>
+      <RouterLink to="/incrementing-counter">incrementing-counter</RouterLink>
+      <RouterLink to="/drink-water">drink-water</RouterLink>
+      <RouterLink to="/movie-app">movie-app</RouterLink>
+      <RouterLink to="/background-slider">background-slider [undone]</RouterLink>
     </div>
 
     <RouterView class="content-wrapper" />
