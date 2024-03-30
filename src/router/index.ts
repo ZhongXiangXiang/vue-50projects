@@ -111,6 +111,31 @@ const router = createRouter({
       path: '/theme-clock',
       name: 'theme-clock',
       component: () => import('@/views/day19ThemeClock/index.vue')
+    },
+    {
+      path: '/button-ripple-effect',
+      name: 'button-ripple-effect',
+      component: () => import('@/views/day20ButtonRippleEffect/index.vue')
+    },
+    {
+      path: '/drag-n-drop',
+      name: 'drag-n-drop',
+      component: () => import('@/views/day21DragNDrop/index.vue')
+    },
+    {
+      path: '/drawing-app',
+      name: 'drawing-app',
+      component: () => import('@/views/day22DrawingApp/index.vue')
+    },
+    {
+      path: '/kinetic-loader',
+      name: 'kinetic-loader',
+      component: () => import('@/views/day23KineticLoader/index.vue')
+    },
+    {
+      path: '/content-placeholder',
+      name: 'content-placeholder',
+      component: () => import('@/views/day24ContentPlaceholder/index.vue')
     }
   ]
 })
