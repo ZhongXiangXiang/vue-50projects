@@ -136,6 +136,11 @@ const router = createRouter({
       path: '/content-placeholder',
       name: 'content-placeholder',
       component: () => import('@/views/day24ContentPlaceholder/index.vue')
+    },
+    {
+      path: '/sticky-navbar',
+      name: 'sticky-navbar',
+      component: () => import('@/views/day25StickyNavbar/index.vue')
     }
   ]
 })

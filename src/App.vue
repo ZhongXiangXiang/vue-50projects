@@ -29,6 +29,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/drawing-app">drawing-app</RouterLink>
       <RouterLink to="/kinetic-loader">kinetic-loader</RouterLink>
       <RouterLink to="/content-placeholder">content-placeholder</RouterLink>
+      <RouterLink to="/sticky-navbar">sticky-navbar</RouterLink>
     </div>
 
     <RouterView class="content-wrapper" />
