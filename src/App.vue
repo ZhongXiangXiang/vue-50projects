@@ -30,6 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/kinetic-loader">kinetic-loader</RouterLink>
       <RouterLink to="/content-placeholder">content-placeholder</RouterLink>
       <RouterLink to="/sticky-navbar">sticky-navbar</RouterLink>
+      <RouterLink to="/show-notification">show-notification</RouterLink>
     </div>
 
     <RouterView class="content-wrapper" />

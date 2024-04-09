@@ -4,6 +4,10 @@
       <input ref="inputRef" type="text" placeholder="Search..." />
       <button @click="handleSearch">search</button>
     </div>
+    <input type="text" v-model="value1" @blur="handleBlur" />
+    <button @click="handleClick" @mousedown="handleMousedown" @mouseup="handleMouseup">
+      click
+    </button>
   </div>
 </template>
 
@@ -18,6 +22,28 @@ function handleSearch() {
   // }
   ;(inputRef.value as HTMLDivElement).focus()
   isActive.value = !isActive.value
+}
+
+const value1 = ref('')
+function handleBlur() {
+  console.log('blur..', value1.value)
+}
+
+function handleClick(e) {
+  console.log('click..', e)
+  e.preventDefault()
+}
+
+/**
+ * mousedown事件 > blur > mouseup > click
+ */
+function handleMousedown(e) {
+  console.log('mousedown..')
+  e.preventDefault() // 会阻止blur事件
+}
+
+function handleMouseup() {
+  console.log('mouseup..')
 }
 </script>
 
@@ -38,15 +64,17 @@ function handleSearch() {
         padding: 0 10px;
       }
     }
+
+    input {
+      border: none;
+      outline: none;
+      width: 0;
+      height: 50px;
+      transition: width 0.3s linear;
+      font-size: 20px;
+    }
   }
-  input {
-    border: none;
-    outline: none;
-    width: 0;
-    height: 50px;
-    transition: width 0.3s linear;
-    font-size: 20px;
-  }
+
   button {
     border: none;
     background: #fff;

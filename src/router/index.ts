@@ -8,6 +8,11 @@ const router = createRouter({
       name: 'home',
       redirect: '/expanding-cards'
     },
+    {
+      path: '/test',
+      name: 'test',
+      component: () => import('@/views/test/index.vue')
+    },
     // {
     //   path: '/about',
     //   name: 'about',
@@ -141,6 +146,11 @@ const router = createRouter({
       path: '/sticky-navbar',
       name: 'sticky-navbar',
       component: () => import('@/views/day25StickyNavbar/index.vue')
+    },
+    {
+      path: '/show-notification',
+      name: 'show-notification',
+      component: () => import('@/views/day27ToastNotification/index.vue')
     }
   ]
 })
