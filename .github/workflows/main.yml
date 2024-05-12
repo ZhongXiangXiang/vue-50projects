@@ -40,7 +40,7 @@ jobs:
           npm run build-only
 
       - name: Deploy   # 部署
-        uses: JamesIves/github-pages-deploy-action@v4.3.3 # 使用第三方action，有两个参数：branch,folder
+        uses: JamesIves/github-pages-deploy-action@v4 # 使用第三方action，有两个参数：branch,folder
         with:
           branch: gh-pages # 部署后提交到那个分支
           folder: dist # 这里填打包好的目录名称
