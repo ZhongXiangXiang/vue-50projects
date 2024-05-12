@@ -1,0 +1,1 @@
+import{_ as s,o as c,c as o,p as t,i as a,a as d}from"./index-Dvvhm38q.js";const _={},n=e=>(t("data-v-282df551"),e=e(),a(),e),r={class:"bg"},i=n(()=>d("div",{class:"triangle"},null,-1)),p=[i];function l(e,f){return c(),o("div",r,p)}const u=s(_,[["render",l],["__scopeId","data-v-282df551"]]);export{u as default};
