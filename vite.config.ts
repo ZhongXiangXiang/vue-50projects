@@ -1,7 +1,7 @@
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import vue from '@vitejs/plugin-vue' // to parse sfc, includes @vue/compiler-sfc
 import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/

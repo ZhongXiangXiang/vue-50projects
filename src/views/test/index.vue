@@ -1,5 +1,10 @@
 <template>
   <div class="test-comp">
+    <span id="inline-ele">行内元素1
+      <span>行内</span>
+    </span>
+    <span id="inline-ele">行内元素2</span>
+    <div>块级元素</div>
     <button @click="handleClick">click</button>
     <button @click="handleClick2">click toast2</button>
 
@@ -13,6 +18,9 @@
 
     <h2>test slot</h2>
     <TestSlot />
+
+    <h2>test hooks</h2>
+    <TestHook />
   </div>
 </template>
 
@@ -22,6 +30,8 @@ import TransitionComp from './TransitionComp.vue'
 import TestDir from './TestDir.vue'
 import CustomEvent from './CustomEvent.vue'
 import TestSlot from './TestSlot.vue'
+
+import TestHook from './TestHook.vue'
 
 const instance = getCurrentInstance()
 let index = 0
@@ -37,5 +47,8 @@ function handleClick2() {
 <style lang="less" scoped>
 .test-comp {
   overflow: auto;
+}
+#inline-ele {
+  color: red;
 }
 </style>

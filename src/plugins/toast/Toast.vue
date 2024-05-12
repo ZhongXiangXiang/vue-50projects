@@ -41,6 +41,10 @@ setTimeout(() => {
   props.destroy()
   isShow.value = false
 }, 2000)
+
+defineExpose({
+  a: 1
+})
 </script>
 
 <style lang="less" scoped>

@@ -13,6 +13,11 @@ const router = createRouter({
       name: 'test',
       component: () => import('@/views/test/index.vue')
     },
+    {
+      path: '/virtual-scroller',
+      name: 'virtual-scroller',
+      component: () => import('@/views/virtualScroller/index.vue')
+    },
     // {
     //   path: '/about',
     //   name: 'about',
