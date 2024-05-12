@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    test
     <div
       class="panel"
       :class="{ active: item.active }"
