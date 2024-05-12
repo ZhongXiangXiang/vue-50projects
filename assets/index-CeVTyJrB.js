@@ -1,1 +1,0 @@
-import{_ as c,o as s,c as o,p as a,i as t,a as _}from"./index-B_aWdXqq.js";const d={},n=e=>(a("data-v-05c8a43e"),e=e(),t(),e),r={class:"bg"},i=n(()=>_("div",{class:"triangle"},null,-1)),p=[i];function l(e,f){return s(),o("div",r,p)}const u=c(d,[["render",l],["__scopeId","data-v-05c8a43e"]]);export{u as default};
