@@ -27,5 +27,5 @@ app.use(regToast2)
 app.use(dirs, { name: 'zxx' })
 
 app.use(VueVirtualScroller)
-
+console.log(99)
 app.mount('#app')
